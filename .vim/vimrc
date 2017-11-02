@@ -96,6 +96,8 @@ nmap <Esc>K   mo:Ggrep! "\b<cword>\b" <CR>
 nmap <Esc>w :BD<CR>
 nmap ∑      :BD<CR>
 
+nmap <Esc><Esc> :w<CR>
+
 " Quickly fix spelling errors choosing the first result
 nmap <Leader>z z=1<CR><CR>
 
