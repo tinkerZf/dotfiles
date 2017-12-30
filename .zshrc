@@ -159,9 +159,7 @@ _force_prepend_to_path() {
 _force_prepend_to_path /usr/local/sbin
 _force_prepend_to_path /usr/local/bin
 _force_prepend_to_path ~/bin
-_force_prepend_to_path /usr/local/heroku/bin
 
-_append_to_path /usr/games
 _append_to_path /usr/sbin
 
 # Add our docs, too
