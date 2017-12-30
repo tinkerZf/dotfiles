@@ -86,11 +86,11 @@ nmap <C-h> <C-W>h
 nmap <C-l> <C-W>l
 
 " Search for the word under the cursor in the current directory
-nmap <M-k>    mo:Ack! "\b<cword>\b" <CR>
-nmap <Esc>k   mo:Ack! "\b<cword>\b" <CR>
+nmap <M-r>    mo:Ack! "\b<cword>\b" <CR>
+nmap <Esc>r   mo:Ack! "\b<cword>\b" <CR>
 nmap ˚        mo:Ack! "\b<cword>\b" <CR>
-nmap <M-S-k>  mo:Ggrep! "\b<cword>\b" <CR>
-nmap <Esc>K   mo:Ggrep! "\b<cword>\b" <CR>
+nmap <M-S-r>  mo:Ggrep! "\b<cword>\b" <CR>
+nmap <Esc>r   mo:Ggrep! "\b<cword>\b" <CR>
 
 " Alt-W to delete a buffer and remove it from the list but keep the window via bufkill.vim
 nmap <Esc>w :BD<CR>
