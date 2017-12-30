@@ -400,6 +400,7 @@ highlight clear Folded
 highlight link Folded Ignore
 highlight clear LineNr
 highlight! def link LineNr Ignore
+"hi LineNr term=bold cterm=NONE ctermfg=DarkGrey ctermbg=NONE gui=NONE guifg=DarkGrey guibg=NONE
 
 " Custom search colors
 highlight clear Search
